@@ -1,0 +1,4 @@
+[general]
+log_dir = logs
+mode = detailed
+
