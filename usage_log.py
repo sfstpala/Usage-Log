@@ -7,7 +7,7 @@ import configparser
 
 def usagelog_config():
     config = configparser.ConfigParser()
-    config.read('usagelog.ini')
+    config.read('usagelog.cfg')
     return config
 
 def log(filename):
