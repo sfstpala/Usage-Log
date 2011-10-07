@@ -29,7 +29,7 @@ if __name__ == '__main__':
     d = time.strftime("%Y-%m-%dZ", time.gmtime())
     t = time.strftime("%Y-%m-%d %H:%M:%SZ", time.gmtime())
     while True:       
-        t_cpu, t_mem = log("usage-%s.log" % d)
+        t_cpu, t_mem = log("logs/usage-%s.log" % d)
         try:
             print(t, "    cpu: %6.2f" % t_cpu, "    mem: %6.2f" % t_mem)
         except IOError:
